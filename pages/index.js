@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import NavBar from '../components/NavBar'
 import Body from '../components/Body'
+import Carousel from '../components/Carousell'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <h1 className="text-1xl m-10 md:text-5xl">
             Home page
           </h1>
+          <Carousel></Carousel>
         </Body>
       </div>
   )
